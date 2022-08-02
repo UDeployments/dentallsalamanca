@@ -12,7 +12,7 @@
 
     <link rel="icon" type="image/png" href="images/client/favicon.png">
 
-    <title>Medicom</title>
+    <title>Dent-all</title>
 
     <meta name="description" content="">
 
@@ -114,9 +114,9 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('/images/client/logo.png') }}"
-                                                                       alt=""
-                                                                       title=""></a>
+                    <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/client/logo.png') }}"
+                                                                       alt="Logo Dent-all"
+                                                                       title="Logo Dent-all"></a>
 
                 </div>
 
