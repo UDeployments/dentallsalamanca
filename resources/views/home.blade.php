@@ -2,15 +2,12 @@
 <html lang="en" class="no-js">
 <head>
     <base href=""/>
-    <!-- Basic Page Needs
-
-     ================================================== -->
 
     <meta charset="utf-8">
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <link rel="icon" type="image/png" href="images/client/favicon.png">
+    <link rel="icon" type="image/png" href="{{ asset('/images/client/favicon.png') }}">
 
     <title>Dent-all</title>
 
@@ -114,7 +111,7 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('images/client/logo.png') }}"
+                    <a class="navbar-brand" href="{{ url('/') }}"><img src="{{ asset('/images/client/logo.png') }}"
                                                                        alt="Logo Dent-all"
                                                                        title="Logo Dent-all"></a>
 
@@ -202,7 +199,8 @@
                         <li class="mega-menu-item dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-tooth"></i>DEPARTMENTS</a>
                             <div class="mega-menu dropdown-menu">
-                                <img src="images/client/mega-menu-img.jpg" class="img-rounded" alt="" title="">
+                                <img src="{{ asset('/images/client/mega-menu-img.jpg') }}" class="img-rounded" alt=""
+                                     title="">
                                 <ul>
                                     <li><strong>Department One</strong></li>
                                     <li><a href="medical-department.html">Medical Department</a></li>
@@ -300,14 +298,14 @@
                     <!-- Fade
                     ============================================= -->
                     <li data-transition="fade" data-slotamount="10" data-thumb="">
-                        <img src="images/client/heart-specialist.jpg" alt="image"/>
+                        <img src="{{ asset('/images/client/heart-specialist.jpg') }}" alt="image"/>
                         <div class="caption sft" data-x="0" data-y="180" data-speed="3000" data-start="1300"
                              data-easing="easeOutBack">
-                            <img src="images/client/heart-icon.png" alt="">
+                            <img src="{{ asset('/images/client/heart-icon.png') }}" alt="">
                         </div>
                         <div class="caption lfr" data-x="770" data-y="100" data-speed="1500" data-start="900"
                              data-easing="easeOutExpo">
-                            <img src="images/client/heart.png" alt=""/>
+                            <img src="{{ asset('/images/client/heart.png') }}" alt=""/>
                         </div>
                         <div class="caption sft big_white" data-x="0" data-y="265" data-speed="1000" data-start="1700"
                              data-easing="easeOutExpo">
@@ -328,9 +326,10 @@
                     <!-- Slide Right
                     ============================================= -->
                     <li data-transition="slideright" data-slotamount="6" data-thumb="">
-                        <img src="images/client/emergency-services.jpg" alt="image"/>
+                        <img src="{{ asset('/images/client/emergency-services.jpg') }}" alt="image"/>
                         <div class="caption sft" data-x="500" data-y="180" data-speed="2000" data-start="1300"
-                             data-easing="easeOutBack"><img src="images/client/emergency-services-icon.png" alt="">
+                             data-easing="easeOutBack"><img
+                                src="{{ asset('/images/client/emergency-services-icon.png') }}" alt="">
                         </div>
                         <div class="caption sft big_white" data-x="260" data-y="290" data-speed="1500" data-start="1700"
                              data-easing="easeOutExpo"><strong>emergency services</strong></div>
@@ -349,12 +348,13 @@
                     <!-- Slide Up
                     ============================================= -->
                     <li data-transition="slideup" data-slotamount="15" data-thumb="">
-                        <img src="images/client/better-technology.jpg" alt="image"/>
+                        <img src="{{ asset('/images/client/better-technology.jpg') }}" alt="image"/>
                         <div class="caption sfl" data-x="0" data-y="180" data-speed="1500" data-start="1300"
-                             data-easing="easeOutBack"><img src="images/client/better-technology-icon.png" alt=""></div>
+                             data-easing="easeOutBack"><img
+                                src="{{ asset('/images/client/better-technology-icon.png') }}" alt=""></div>
                         <div class="caption sfr" data-x="600" data-y="0" data-speed="900" data-start="1500"
                              data-easing="easeOutExpo">
-                            <img src="images/client/tech-women.png" alt=""/></div>
+                            <img src="{{ asset('/images/client/tech-women.png') }}" alt=""/></div>
                         <div class="caption sft big_white" data-x="0" data-y="265" data-speed="1500" data-start="1700"
                              data-easing="easeOutExpo"><strong>better technology</strong></div>
                         <div class="caption sfr medium_grey" data-x="0" data-y="340" data-speed="1500" data-start="2500"
@@ -458,7 +458,8 @@
                 <div class="row">
 
                     <div class="col-md-6">
-                        <figure><img src="images/client/appointment-img.jpg" alt="image" title="Appointment image"
+                        <figure><img src="{{ asset('/images/client/appointment-img.jpg') }}" alt="image"
+                                     title="Appointment image"
                                      class="img-responsive lady1"></figure>
                     </div>
 
@@ -548,7 +549,7 @@
 
                     <div class="team-member">
                         <div class="team-thumb">
-                            <img src="images/client/team-member-img1.jpg" class="img-rounded" alt="">
+                            <img src="{{ asset('/images/client/team-member-img1.jpg') }}" class="img-rounded" alt="">
                             <div class="links"><a href="#."><i class="fa fa-facebook"></i></a>
                                 <a href="#."><i class="fa fa-twitter"></i></a>
                                 <a href="#."><i class="fa fa-google-plus"></i></a></div>
@@ -562,7 +563,7 @@
 
                     <div class="team-member">
                         <div class="team-thumb">
-                            <img src="images/client/team-member-img2.jpg" class="img-rounded" alt="">
+                            <img src="{{ asset('/images/client/team-member-img2.jpg') }}" class="img-rounded" alt="">
                             <div class="links"><a href="#."><i class="fa fa-facebook"></i></a>
                                 <a href="#."><i class="fa fa-twitter"></i></a>
                                 <a href="#."><i class="fa fa-google-plus"></i></a></div>
@@ -576,7 +577,7 @@
 
                     <div class="team-member">
                         <div class="team-thumb">
-                            <img src="images/client/team-member-img3.jpg" class="img-rounded" alt="">
+                            <img src="{{ asset('/images/client/team-member-img3.jpg') }}" class="img-rounded" alt="">
                             <div class="links"><a href="#."><i class="fa fa-facebook"></i></a>
                                 <a href="#."><i class="fa fa-twitter"></i></a>
                                 <a href="#."><i class="fa fa-google-plus"></i></a></div>
@@ -590,7 +591,7 @@
 
                     <div class="team-member">
                         <div class="team-thumb">
-                            <img src="images/client/team-member-img1.jpg" class="img-rounded" alt="">
+                            <img src="{{ asset('/images/client/team-member-img1.jpg') }}" class="img-rounded" alt="">
                             <div class="links"><a href="#."><i class="fa fa-facebook"></i></a>
                                 <a href="#."><i class="fa fa-twitter"></i></a>
                                 <a href="#."><i class="fa fa-google-plus"></i></a></div>
@@ -604,7 +605,7 @@
 
                     <div class="team-member">
                         <div class="team-thumb">
-                            <img src="images/client/team-member-img2.jpg" class="img-rounded" alt="">
+                            <img src="{{ asset('/images/client/team-member-img2.jpg') }}" class="img-rounded" alt="">
                             <div class="links"><a href="#."><i class="fa fa-facebook"></i></a>
                                 <a href="#."><i class="fa fa-twitter"></i></a>
 
@@ -619,7 +620,7 @@
 
                     <div class="team-member">
                         <div class="team-thumb">
-                            <img src="images/client/team-member-img3.jpg" class="img-rounded" alt="">
+                            <img src="{{ asset('/images/client/team-member-img3.jpg') }}" class="img-rounded" alt="">
                             <div class="links"><a href="#."><i class="fa fa-facebook"></i></a>
                                 <a href="#."><i class="fa fa-twitter"></i></a>
                                 <a href="#."><i class="fa fa-google-plus"></i></a></div>
@@ -633,7 +634,7 @@
 
                     <div class="team-member">
                         <div class="team-thumb">
-                            <img src="images/client/team-member-img1.jpg" class="img-rounded" alt="">
+                            <img src="{{ asset('/images/client/team-member-img1.jpg') }}" class="img-rounded" alt="">
                             <div class="links"><a href="#."><i class="fa fa-facebook"></i></a>
                                 <a href="#."><i class="fa fa-twitter"></i></a>
                                 <a href="#."><i class="fa fa-google-plus"></i></a></div>
@@ -647,7 +648,7 @@
 
                     <div class="team-member">
                         <div class="team-thumb">
-                            <img src="images/client/team-member-img2.jpg" class="img-rounded" alt="">
+                            <img src="{{ asset('/images/client/team-member-img2.jpg') }}" class="img-rounded" alt="">
                             <div class="links"><a href="#."><i class="fa fa-facebook"></i></a>
                                 <a href="#."><i class="fa fa-twitter"></i></a>
                                 <a href="#."><i class="fa fa-google-plus"></i></a></div>
@@ -683,7 +684,7 @@
                             <div class="col-md-5">
                                 <article class="blog-item">
                                     <div class="blog-thumbnail">
-                                        <img alt="" src="images/client/latest-news1.jpg">
+                                        <img alt="" src="{{ asset('/images/client/latest-news1.jpg') }}">
                                         <div class="blog-date"><p class="day">29</p>
                                             <p class="monthyear">FEB 2014</p></div>
                                     </div>
@@ -698,7 +699,7 @@
                                 </article>
                                 <article class="blog-item">
                                     <div class="blog-thumbnail">
-                                        <img alt="" src="images/client/latest-news3.jpg">
+                                        <img alt="" src="{{ asset('/images/client/latest-news3.jpg') }}">
                                         <div class="blog-date"><p class="day">29</p>
                                             <p class="monthyear">FEB 2014</p></div>
                                     </div>
@@ -718,7 +719,7 @@
                             <div class="col-md-7">
                                 <article class="blog-item">
                                     <div class="blog-thumbnail">
-                                        <img alt="" src="images/client/latest-news2.jpg">
+                                        <img alt="" src="{{ asset('/images/client/latest-news2.jpg') }}">
                                         <div class="blog-date"><p class="day">29</p>
                                             <p class="monthyear">FEB 2014</p></div>
                                     </div>
@@ -733,7 +734,7 @@
                                 </article>
                                 <article class="blog-item">
                                     <div class="blog-thumbnail">
-                                        <img alt="" src="images/client/latest-news4.jpg">
+                                        <img alt="" src="{{ asset('/images/client/latest-news4.jpg') }}">
                                         <div class="blog-date"><p class="day">29</p>
                                             <p class="monthyear">FEB 2014</p></div>
                                     </div>
@@ -761,7 +762,8 @@
                         <div class="what-doctor-say clearfix">
                             <div id="meet-doctors-carousel" class="owl-carousel meet-doctors-carousel text-center">
                                 <div class="item">
-                                    <img src="images/client/doctor-img.png" class="img-circle img-thumbnail list-inline"
+                                    <img src="{{ asset('/images/client/doctor-img.png') }}"
+                                         class="img-circle img-thumbnail list-inline"
                                          alt=""
                                          title="">
                                     <h4>Dr.Mark Leon<br/><span>Anesthesiologist</span></h4>
@@ -770,7 +772,8 @@
                                         ornare, augue ut ultricies tristique, </p>
                                 </div>
                                 <div class="item">
-                                    <img src="images/client/doctor-img.png" class="img-circle img-thumbnail" alt=""
+                                    <img src="{{ asset('/images/client/doctor-img.png') }}"
+                                         class="img-circle img-thumbnail" alt=""
                                          title="">
                                     <h4>Dr.Mark Leon<br/><span>Anesthesiologist</span></h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec eros eget nisl
@@ -778,7 +781,8 @@
                                         ornare, augue ut ultricies tristique, </p>
                                 </div>
                                 <div class="item">
-                                    <img src="images/client/doctor-img.png" class="img-circle img-thumbnail" alt=""
+                                    <img src="{{ asset('/images/client/doctor-img.png') }}"
+                                         class="img-circle img-thumbnail" alt=""
                                          title="">
                                     <h4>Dr.Mark Leon<br/><span>Anesthesiologist</span></h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec eros eget nisl
@@ -996,7 +1000,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <img src="images/client/mobile-hand.png" class="app-img" alt="" title="">
+                        <img src="{{ asset('/images/client/mobile-hand.png') }}" class="app-img" alt="" title="">
                     </div>
                     <div class="col-md-7">
                         <div class="medicom-app-content">
@@ -1007,9 +1011,10 @@
                                 <span>AVAILABLE ON STORES</span>
                             </p>
                             <ul class="list-unstyled app-buttons">
-                                <li><a href="#."><img src="images/client/app-store-btn.png" alt=""
+                                <li><a href="#."><img src="{{ asset('/images/client/app-store-btn.png') }}" alt=""
                                                       title="App Store"></a></li>
-                                <li><a href="#."><img src="images/client/google-play-btn.png" alt="" title="Google App"></a>
+                                <li><a href="#."><img src="{{ asset('/images/client/google-play-btn.png') }}" alt=""
+                                                      title="Google App"></a>
                                 </li>
                             </ul>
                         </div>
@@ -1038,7 +1043,8 @@
                                     pretium, euismod ipsum nec, placerat turpis. Aenean eu gravida arcu, et consectetur
                                     orci Quisque posuere dolor in malesuada fermentum.</p>
                                 <div class="testimonials-patient-detail">
-                                    <img src="images/client/patient-img.png" class="img-circle img-thumbnail" alt=""
+                                    <img src="{{ asset('/images/client/patient-img.png') }}"
+                                         class="img-circle img-thumbnail" alt=""
                                          title="">
                                     <p>fred albert<span>Heart patient</span></p>
                                 </div>
@@ -1051,7 +1057,8 @@
                                     pretium, euismod ipsum nec, placerat turpis. Aenean eu gravida arcu, et consectetur
                                     orci Quisque posuere dolor in malesuada fermentum.</p>
                                 <div class="testimonials-patient-detail">
-                                    <img src="images/client/patient-img.png" class="img-circle img-thumbnail" alt=""
+                                    <img src="{{ asset('/images/client/patient-img.png') }}"
+                                         class="img-circle img-thumbnail" alt=""
                                          title="">
                                     <p>fred albert<span>Heart patient</span></p>
                                 </div>
@@ -1064,7 +1071,8 @@
                                     pretium, euismod ipsum nec, placerat turpis. Aenean eu gravida arcu, et consectetur
                                     orci Quisque posuere dolor in malesuada fermentum.</p>
                                 <div class="testimonials-patient-detail">
-                                    <img src="images/client/patient-img.png" class="img-circle img-thumbnail" alt=""
+                                    <img src="{{ asset('/images/client/patient-img.png') }}"
+                                         class="img-circle img-thumbnail" alt=""
                                          title="">
                                     <p>fred albert<span>Heart patient</span></p>
                                 </div>
@@ -1226,7 +1234,8 @@
         ============================================= -->
         <div class="container">
             <div class="row">
-                <div class="col-md-2"><a href="#."><img src="images/client/footer-logo.jpg" alt="" title="Medicom Logo"></a>
+                <div class="col-md-2"><a href="#."><img src="{{ asset('/images/client/footer-logo.jpg') }}" alt=""
+                                                        title="Medicom Logo"></a>
                 </div>
                 <div class="col-md-10">
                     <p class="footer-bottom-text">Lorem Ipsum is simply dummy text of the printing and typesetting
