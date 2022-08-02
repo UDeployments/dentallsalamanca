@@ -71,7 +71,7 @@
 
     ================================================== -->
 
-    <script src="js/client/modernizr-2.6.2.min.js"></script>
+    <script src="{{ asset('js/client/modernizr-2.6.2.min.js') }}"></script>
     <script src="https://kit.fontawesome.com/134ba02a77.js" crossorigin="anonymous"></script>
 
 
@@ -1259,27 +1259,27 @@
 
 <!-- All Javascript
 ============================================= -->
-<script src="js/client/jquery.js"></script>
-<script src="js/client/bootstrap.min.js"></script>
-<script src="js/client/jquery.stellar.js"></script>
-<script src="js/client/jquery-ui-1.10.3.custom.js"></script>
-<script src="js/client/owl.carousel.js"></script>
-<script src="js/client/counter.js"></script>
-<script src="js/client/waypoints.js"></script>
-<script src="js/client/jquery.uniform.js"></script>
-<script src="js/client/easyResponsiveTabs.js"></script>
-<script src="js/client/jquery.fancybox.pack.js"></script>
-<script src="js/client/jquery.fancybox-media.js"></script>
-<script src="js/client/jquery.mixitup.js"></script>
-<script src="js/client/forms-validation.js"></script>
-<script src="js/client/jquery.jcarousel.min.js"></script>
-<script src="js/client/jquery.easypiechart.min.js"></script>
-<script src="js/client/scripts.js"></script>
+<script src="{{ asset('js/client/jquery.js') }}"></script>
+<script src="{{ asset('js/client/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/client/jquery.stellar.js') }}"></script>
+<script src="{{ asset('js/client/jquery-ui-1.10.3.custom.js') }}"></script>
+<script src="{{ asset('js/client/owl.carousel.js') }}"></script>
+<script src="{{ asset('js/client/counter.js') }}"></script>
+<script src="{{ asset('js/client/waypoints.js') }}"></script>
+<script src="{{ asset('js/client/jquery.uniform.js') }}"></script>
+<script src="{{ asset('js/client/easyResponsiveTabs.js') }}"></script>
+<script src="{{ asset('js/client/jquery.fancybox.pack.js') }}"></script>
+<script src="{{ asset('js/client/jquery.fancybox-media.js') }}"></script>
+<script src="{{ asset('js/client/jquery.mixitup.js') }}"></script>
+<script src="{{ asset('js/client/forms-validation.js') }}"></script>
+<script src="{{ asset('js/client/jquery.jcarousel.min.js') }}"></script>
+<script src="{{ asset('js/client/jquery.easypiechart.min.js') }}"></script>
+<script src="{{ asset('js/client/scripts.js') }}"></script>
 
 <!-- This page
 ============================================= -->
-<script src="js/client/jquery.themepunch.plugins.min.js"></script>
-<script src="js/client/jquery.themepunch.revolution.min.js"></script>
+<script src="{{ asset('js/client/jquery.themepunch.plugins.min.js') }}"></script>
+<script src="{{ asset('js/client/jquery.themepunch.revolution.min.js') }}"></script>
 
 
 <script>
