@@ -40,23 +40,23 @@
 
     <!-- Theme Color
     ============================================= -->
-    <link rel="stylesheet" id="color" href="css/client/sky-blue.css">
+    <link rel="stylesheet" id="color" href="{{ asset('css/client/sky-blue.css') }}">
 
 
     <!-- Medicom Style
     ============================================= -->
-    <link rel="stylesheet" href="css/client/medicom.css">
+    <link rel="stylesheet" href="{{ asset('css/client/medicom.css') }}">
 
 
     <!-- This page
     ============================================= -->
-    <link href="css/client/revolution_style.css" rel="stylesheet">
-    <link href="css/client/settings.css" rel="stylesheet">
+    <link href="{{ asset('css/client/revolution_style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/client/settings.css') }}" rel="stylesheet">
 
 
     <!-- Bootstrap
     ============================================= -->
-    <link rel="stylesheet" href="css/client/bootstrap.css">
+    <link rel="stylesheet" href="{{ asset('css/client/bootstrap.css') }}">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
