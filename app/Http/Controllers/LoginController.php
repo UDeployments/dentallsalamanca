@@ -16,7 +16,7 @@ class LoginController extends Controller
      */
     public function __invoke(): View|Factory|Application
     {
-        return view('Authentication\login');
+        return view('Authentication.login');
     }
 
     /**
