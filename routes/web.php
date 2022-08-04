@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'home');
-Route::get('/login', 'Authentication/login')->name('login');
+Route::view('/', 'home');
+
+Route::get('/login', LoginController::class)->name('login');

@@ -7,7 +7,7 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <link rel="icon" type="image/png" href="{{ asset('/images/client/favicon.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('/images/favicon.ico') }}">
 
     <title>Dent-all</title>
 
