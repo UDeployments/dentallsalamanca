@@ -30,16 +30,6 @@
             </div>
         </div>
         <div class="col-12">
-            <div class="mb-3">
-                <div class="form-check form-check-primary form-check-inline">
-                    <input class="form-check-input me-3" type="checkbox" id="form-check-default">
-                    <label class="form-check-label" for="form-check-default">
-                        I agree the <a href="javascript:void(0);" class="text-primary">Terms and Conditions</a>
-                    </label>
-                </div>
-            </div>
-        </div>
-        <div class="col-12">
             <div class="mb-4">
                 <button class="btn btn-primary w-100">Registrarme</button>
             </div>

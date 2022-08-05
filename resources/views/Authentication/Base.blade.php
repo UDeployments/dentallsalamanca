@@ -4,7 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>Dent-all | Inicio Sesión</title>
+    @switch(getPath())
+        @case('SignIn')
+            <title>Dent-all | Inicio Sesión</title>
+            @break
+        @case('SignUp')
+            <title>Dent-all | Registro</title>
+            @break
+    @endswitch
     <link rel="icon" type="image/x-icon" href="{{ asset('/images/favicon.ico') }}"/>
     <link href="{{ asset('/css/management/light/loader.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('/css/management/dark/loader.css') }}" rel="stylesheet" type="text/css"/>
