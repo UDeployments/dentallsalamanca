@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +15,5 @@ use App\Http\Controllers\LoginController;
 
 Route::view('/', 'home');
 
-Route::get('/login', LoginController::class)->name('login');
+Route::view('/SignIn', 'Authentication.SignIn')->name('SignIn');
+Route::view('/SignUp', 'Authentication.SignUp')->name('SignUp');

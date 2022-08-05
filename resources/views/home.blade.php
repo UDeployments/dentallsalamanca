@@ -267,7 +267,7 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="{{ route('login') }}">
+                            <a href="{{ route('SignIn') }}">
                                 <i class="fa-solid fa-user"></i>
                                 Mi Cuenta
                             </a>

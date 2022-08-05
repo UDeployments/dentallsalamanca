@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Authentication;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Contracts\Foundation\Application;
@@ -10,14 +10,6 @@ use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
-    /**
-     * Return the view of the Login form
-     * @return Application|Factory|View
-     */
-    public function __invoke(): View|Factory|Application
-    {
-        return view('Authentication.login');
-    }
 
     /**
      * Display a listing of the resource.
