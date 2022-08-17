@@ -2,62 +2,50 @@
 <html lang="en" class="no-js">
 <head>
     <base href=""/>
-
     <meta charset="utf-8">
-
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
     <link rel="icon" type="image/x-icon" href="{{ asset('/images/favicon.ico') }}">
 
     <title>Dent-all</title>
 
-    <meta name="description" content="">
-
+    <meta name="description" content="Web page of Dent-all">
     <meta name="keywords" content="">
-
-    <meta name="author" content="">
-
+    <meta name="author" content="Luis Saúl González Guerra">
 
     <!-- Mobile Specific Metas
-
     ================================================== -->
-
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-
     <meta name="format-detection" content="telephone=no">
-
 
     <!-- Web Font
     ============================================= -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
 
+    <!-- Icons
+    ============================================= -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,1,0"/>
 
     <!-- CSS
-
      ================================================== -->
-
 
     <!-- Theme Color
     ============================================= -->
     <link rel="stylesheet" id="color" href="{{ asset('css/client/sky-blue.css') }}">
 
-
     <!-- Medicom Style
     ============================================= -->
     <link rel="stylesheet" href="{{ asset('css/client/medicom.css') }}">
-
 
     <!-- This page
     ============================================= -->
     <link href="{{ asset('css/client/revolution_style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/client/settings.css') }}" rel="stylesheet">
 
-
     <!-- Bootstrap
     ============================================= -->
     <link rel="stylesheet" href="{{ asset('css/client/bootstrap.css') }}">
-
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,15 +54,9 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
-
     <!-- Header Scripts
-
     ================================================== -->
-
     <script src="{{ asset('js/client/modernizr-2.6.2.min.js') }}"></script>
-    <script src="https://kit.fontawesome.com/134ba02a77.js" crossorigin="anonymous"></script>
-
-
 </head>
 <body class="fixed-header">
 
@@ -123,11 +105,12 @@
                     <ul class="nav navbar-nav">
 
                         <li class="dropdown active">
-                            <a href="{{ url('/') }}"><i class="fa-solid fa-tooth"></i>Inicio</a>
+                            <a href="{{ url('/') }}"><i class="material-symbols-outlined">dentistry</i>Inicio</a>
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-tooth"></i>About
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                    class="material-symbols-outlined">dentistry</i>About
                                 Us</a>
                             <ul class="dropdown-menu">
                                 <li><a href="about-us.html">About Us One</a></li>
@@ -136,7 +119,8 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-tooth"></i>pages</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                    class="material-symbols-outlined">dentistry</i>pages</a>
                             <ul class="dropdown-menu">
                                 <li><a href="patient-and-families.html">Patients &amp; Families</a></li>
                                 <li class="dropdown-submenu"><a href="research.html">Research</a><i
@@ -197,7 +181,8 @@
                         </li>
 
                         <li class="mega-menu-item dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-tooth"></i>DEPARTMENTS</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                    class="material-symbols-outlined">dentistry</i>DEPARTMENTS</a>
                             <div class="mega-menu dropdown-menu">
                                 <img src="{{ asset('/images/client/mega-menu-img.jpg') }}" class="img-rounded" alt=""
                                      title="">
@@ -229,7 +214,8 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-tooth"></i>Gallery</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                    class="material-symbols-outlined">dentistry</i>Gallery</a>
                             <ul class="dropdown-menu">
                                 <li><a href="gallery1.html">Gallery one</a></li>
                                 <li><a href="gallery2.html">Gallery two</a></li>
@@ -238,7 +224,8 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-tooth"></i>blog</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                    class="material-symbols-outlined">dentistry</i>blog</a>
                             <ul class="dropdown-menu">
                                 <li><a href="blog.html">Blog one</a></li>
                                 <li><a href="blog-single-post.html">Blog two</a></li>
@@ -249,7 +236,7 @@
 
                         <li class="dropdown last">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
-                                    class="fa-solid fa-tooth"></i></i>Shop</a>
+                                    class="material-symbols-outlined">dentistry</i>Shop</a>
                             <ul class="dropdown-menu">
                                 <li><a href="shop.html">Shop</a></li>
                                 <li><a href="shop-detail.html">Shop detail</a></li>
@@ -258,7 +245,8 @@
                         </li>
 
                         <li class="dropdown last">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-tooth"></i>Contact
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                                    class="material-symbols-outlined">dentistry</i>Contact
                                 Us</a>
                             <ul class="dropdown-menu">
                                 <li><a href="contact-us.html">Contact Us one</a></li>
@@ -267,8 +255,8 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="{{ route('SignIn') }}">
-                                <i class="fa-solid fa-user"></i>
+                            <a href="{{ route('Auth.index') }}">
+                                <i class="material-symbols-outlined">person</i>
                                 Mi Cuenta
                             </a>
                         </li>
@@ -799,7 +787,8 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title active">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Outpatient Rehabilitation
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Outpatient
+                                            Rehabilitation
                                         </a>
                                     </h4>
                                 </div>
@@ -817,7 +806,8 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Dental Instruments
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Dental
+                                            Instruments
                                         </a>
                                     </h4>
                                 </div>
@@ -834,7 +824,8 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Outpatient Rehabilitation
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Outpatient
+                                            Rehabilitation
                                         </a>
                                     </h4>
                                 </div>
@@ -851,7 +842,8 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Outpatient Surgery
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Outpatient
+                                            Surgery
                                         </a>
                                     </h4>
                                 </div>
@@ -868,7 +860,8 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Outpatient Rehabilitation
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Outpatient
+                                            Rehabilitation
                                         </a>
                                     </h4>
                                 </div>
@@ -885,7 +878,7 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Heart Clinic
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Heart Clinic
                                         </a>
                                     </h4>
                                 </div>
@@ -902,7 +895,7 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Weight Loss
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Weight Loss
                                         </a>
                                     </h4>
                                 </div>
@@ -919,7 +912,8 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Rehabilitation Center
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Rehabilitation
+                                            Center
                                         </a>
                                     </h4>
                                 </div>
@@ -936,7 +930,8 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Outpatient Rehabilitation
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Outpatient
+                                            Rehabilitation
                                         </a>
                                     </h4>
                                 </div>
@@ -953,7 +948,8 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Surgery & Transplants
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Surgery &
+                                            Transplants
                                         </a>
                                     </h4>
                                 </div>
@@ -970,7 +966,8 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
-                                            <span><i class="fa-solid fa-tooth"></i></span>Medical Counseling
+                                            <span><i class="material-symbols-outlined">dentistry</i></span>Medical
+                                            Counseling
                                         </a>
                                     </h4>
                                 </div>

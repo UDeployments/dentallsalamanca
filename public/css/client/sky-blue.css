@@ -468,3 +468,9 @@ i.feature-icon {
 .gallery-item:hover .gallery-item-info {
     border-bottom: 6px solid #007eae
 }
+
+.full-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

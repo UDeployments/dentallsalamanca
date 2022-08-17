@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'f8b71390d7d7876f60393c3225a35cd789180334',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -392,12 +392,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'f8b71390d7d7876f60393c3225a35cd789180334',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -427,6 +427,15 @@
             'reference' => '09f0e9fb61829f628205b7c94906c28740ff9540',
             'dev_requirement' => false,
         ),
+        'laravel/socialite' => array(
+            'pretty_version' => 'v5.5.4',
+            'version' => '5.5.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/socialite',
+            'aliases' => array(),
+            'reference' => '3eec261bf83690dd85812587457f093e3156dca6',
+            'dev_requirement' => false,
+        ),
         'laravel/tinker' => array(
             'pretty_version' => 'v2.7.2',
             'version' => '2.7.2.0',
@@ -434,6 +443,15 @@
             'install_path' => __DIR__ . '/../laravel/tinker',
             'aliases' => array(),
             'reference' => 'dff39b661e827dae6e092412f976658df82dbac5',
+            'dev_requirement' => false,
+        ),
+        'laraveles/spanish' => array(
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laraveles/spanish',
+            'aliases' => array(),
+            'reference' => '2224e3db7ec399952523b0769a7677de0b6afd8b',
             'dev_requirement' => false,
         ),
         'league/commonmark' => array(
@@ -470,6 +488,15 @@
             'install_path' => __DIR__ . '/../league/mime-type-detection',
             'aliases' => array(),
             'reference' => 'ff6248ea87a9f116e78edd6002e39e5128a0d4dd',
+            'dev_requirement' => false,
+        ),
+        'league/oauth1-client' => array(
+            'pretty_version' => 'v1.10.1',
+            'version' => '1.10.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/oauth1-client',
+            'aliases' => array(),
+            'reference' => 'd6365b901b5c287dd41f143033315e2f777e1167',
             'dev_requirement' => false,
         ),
         'mockery/mockery' => array(
@@ -754,8 +781,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(

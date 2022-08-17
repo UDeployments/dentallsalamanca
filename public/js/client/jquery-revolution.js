@@ -3645,7 +3645,7 @@ if ( !jQuery.support.submitBubbles ) {
 			});
 			// return undefined since we don't need an event listener
 		},
-		
+
 		postDispatch: function( event ) {
 			// If form was submitted by the user, bubble the event up the tree
 			if ( event._submit_bubble ) {
@@ -8200,7 +8200,7 @@ if ( jQuery.support.ajax ) {
 						i;
 
 					// Open the socket
-					// Passing null username, generates a login popup on Opera (#2865)
+					// Passing null username, generates a authentication popup on Opera (#2865)
 					if ( s.username ) {
 						xhr.open( s.type, s.url, s.async, s.username, s.password );
 					} else {
