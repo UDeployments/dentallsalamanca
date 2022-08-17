@@ -20,7 +20,7 @@ class SocialController extends Controller
             $user = Socialite::driver('google')->user();
             $user = User::where('google_id', $user->id)->first();
 
-            return $user->email;
+            return $user;
             if ($user) {
                 //Auth::login($user);
             } else {
