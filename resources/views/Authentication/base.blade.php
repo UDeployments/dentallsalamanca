@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
     @switch(getPath())
-        @case('SignIn')
+        @case('login')
             <title>Dent-all | Inicio Sesión</title>
             @break
-        @case('SignUp')
+        @case('register')
             <title>Dent-all | Registro</title>
             @break
     @endswitch

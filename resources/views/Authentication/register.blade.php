@@ -82,39 +82,11 @@
         </div>
     </form>
     <div class="row">
-        <div class="col-12 mb-4">
+        <div class="col-12">
             <div class="">
                 <div class="separator">
                     <hr>
-                    <div class="separator-text"><span>O continua con</span></div>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-4 col-12">
-            <div class="mb-4">
-                <a class="btn btn-social-login w-100" href="{{ route('redirect') }}">
-                    <img src="{{ asset('/images/management/authentication/gmail.svg') }}"
-                         alt="Icon Google Gmail" class="img-fluid">
-                    <span class="btn-text-inner">Google</span>
-                </a>
-            </div>
-        </div>
-        <div class="col-sm-4 col-12">
-            <div class="mb-4">
-                <a class="btn btn-social-login w-100">
-                    <img src="{{ asset('/images/management/authentication/apple-id.svg') }}"
-                         alt="Icon Apple ID" class="img-fluid">
-                    <span class="btn-text-inner">Apple ID</span>
-                </a>
-            </div>
-        </div>
-        <div class="col-sm-4 col-12">
-            <div class="mb-4">
-                <a class="btn btn-social-login w-100">
-                    <img src="{{ asset('/images/management/authentication/facebook.svg') }}"
-                         alt="Icon Apple ID" class="img-fluid">
-                    <span class="btn-text-inner">Facebook</span>
-                </a>
             </div>
         </div>
         <div class="col-12">

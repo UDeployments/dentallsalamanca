@@ -32,39 +32,11 @@
                 <button class="btn btn-primary w-100">Iniciar sesión</button>
             </div>
         </div>
-        <div class="col-12 mb-4">
+        <div class="col-12">
             <div class="">
                 <div class="separator">
                     <hr>
-                    <div class="separator-text"><span>O continua con</span></div>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-4 col-12">
-            <div class="mb-4">
-                <button class="btn  btn-social-login w-100 ">
-                    <img src="{{ asset('/images/management/authentication/gmail.svg') }}"
-                         alt="Icon Google Gmail" class="img-fluid">
-                    <span class="btn-text-inner">Google</span>
-                </button>
-            </div>
-        </div>
-        <div class="col-sm-4 col-12">
-            <div class="mb-4">
-                <button class="btn  btn-social-login w-100">
-                    <img src="{{ asset('/images/management/authentication/apple-id.svg') }}"
-                         alt="Icon Apple ID" class="img-fluid">
-                    <span class="btn-text-inner">Apple ID</span>
-                </button>
-            </div>
-        </div>
-        <div class="col-sm-4 col-12">
-            <div class="mb-4">
-                <button class="btn  btn-social-login w-100">
-                    <img src="{{ asset('/images/management/authentication/facebook.svg') }}"
-                         alt="Icon Apple ID" class="img-fluid">
-                    <span class="btn-text-inner">Facebook</span>
-                </button>
             </div>
         </div>
         <div class="col-12">

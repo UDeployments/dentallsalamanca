@@ -23,7 +23,6 @@ return new class extends Migration {
             $table->timestamps();
             $table->unsignedBigInteger('id_rol')->default(3)->index();
             $table->foreign('id_rol')->references('id_rol')->on('rol');
-            $table->string('google_id')->nullable();
         });
     }
 
